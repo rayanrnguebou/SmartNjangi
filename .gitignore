@@ -1,0 +1,129 @@
+﻿
+# === SECRETS ET ENV (CRITIQUE) ===
+
+secrets/
+
+.env
+
+.env.local
+
+.env.*.local
+
+*.key
+
+*.pem
+
+# === NODE.JS / REACT NATIVE ===
+
+node_modules/
+
+npm-debug.log*
+
+yarn-debug.log*
+
+yarn-error.log*
+
+.npm/
+
+.expo/
+
+.expo-shared/
+
+# === PYTHON ===
+
+__pycache__/
+
+*.pyc
+
+*.pyo
+
+.venv/
+
+venv/
+
+*.egg-info/
+
+# === ANDROID ===
+
+*.iml
+
+.gradle/
+
+local.properties
+
+.idea/
+
+captures/
+
+*.apk
+
+*.aab
+
+.cxx/
+
+# === IOS ===
+
+ios/Pods/
+
+*.xcworkspace/xcuserdata/
+
+# === IDE ===
+
+.vscode/
+
+.idea/
+
+*.swp
+
+*.swo
+
+# === OS ===
+
+Thumbs.db
+
+.DS_Store
+
+Desktop.ini
+
+# === LOGS ===
+
+logs/
+
+*.log
+
+# === SPARK / HADOOP ===
+
+metastore_db/
+
+spark-warehouse/
+
+derby.log
+
+# === BUILD ===
+
+out/
+
+target/
+
+*.class
+
+build/
+
+dist/
+
+# === DATA LOURDE ===
+
+data/raw/
+
+data/processed/
+
+*.parquet
+
+*.csv.gz
+
+# === MODELES ML LOURDS ===
+
+*.pkl
+
+models/*.model
+
